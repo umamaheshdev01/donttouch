@@ -23,6 +23,12 @@ body {
   height: 100%;
   font-family: var(--font-primary);
   background-color: var(--color-bg);
+  overflow: hidden;
+}
+
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 html.lenis,
