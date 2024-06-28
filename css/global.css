@@ -1,6 +1,16 @@
+@font-face {
+  font-family: 'CustomFont1';
+  src: url('../object/PPObjectSans-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'CustomFont2';
+  src: url('../object/uma.otf') format('opentype');
+}
+
 :root {
-  --font-primary: "PP Object Sans";
-  --font-secondary: "Druk Wide Trial";
+  --font-primary: "CustomFont1";
+  --font-secondary: "CustomFont2";
 
   --color-text: #fff;
   --color-text-secondary: #eaeaea;
