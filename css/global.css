@@ -26,9 +26,6 @@ body {
 }
 
 
-::-webkit-scrollbar {
-  display: none;
-}
 
 html.lenis,
 html.lenis body {
